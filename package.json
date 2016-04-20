@@ -1,0 +1,21 @@
+{
+  "name": "language-osiris",
+  "main": "./lib/language-osiris",
+  "version": "0.1.0",
+  "description": "Syntax highlighting with more planned for the Divinity Engine's Osiris scripting language ",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "language-osiris:toggle"
+  },
+  "repository": "https://github.com/atom/atom-language-osiris",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://atom.io/packages/atom-language-osiris"
+  }
+}

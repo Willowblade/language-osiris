@@ -1,0 +1,59 @@
+scopeName: 'source.osiris'
+name: 'Osiris'
+fileTypes: ['txt']
+
+patterns: [
+  {
+    match : '\\b(DB_\\w+)\\b'
+    name : 'constant.language.osiris'
+  }
+  {
+    match : '\\b(PROC|AND|THEN|IF)\\b'
+    name : 'keyword.control.osiris'
+  }
+  {
+    match : '\\b(Proc\\w+)\\b'
+    name: 'entity.name.function.osiris'
+  }
+  {
+    match : '\\b(CHARACTER_[\\w_]+)\\b'
+    name: 'storage.modifier.static.osiris'
+  }
+  {
+    match : '\\b(TRIGGER_[\\w_]+)\\b'
+    name: 'storage.modifier.static.osiris'
+  }
+  {
+    match : '\\b(ITEM_[\\w_]+)\\b'
+    name: 'storage.modifier.static.osiris'
+  }
+  {
+    match: '<=|>=|==|<|>|!='
+    name : 'keyword.operator.comparison.osiris'
+  }
+  {
+    match: '\\b(_\\w+)\\b'
+    name : 'storage.type.var.osiris'
+  }
+  {
+    begin: '\"'
+    end: '\"'
+    name: 'string.quoted.single.osiris'
+  }
+  {
+    begin: '//REGION'
+    end: '\n'
+    name: 'constant.numeric.osiris'
+  }
+  {
+    begin: '//END_REGION'
+    end: '\n'
+    name: 'constant.numeric.osiris'
+  }
+  {
+    begin: '//'
+    end: '\n'
+    name: 'punctuation.definition.comment.osiris'
+  }
+
+]
