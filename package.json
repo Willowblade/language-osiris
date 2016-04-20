@@ -8,7 +8,6 @@
   "activationCommands": {
     "atom-workspace": "language-osiris:toggle"
   },
-  "repository": "https://github.com/atom/atom-language-osiris",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -16,6 +15,6 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://atom.io/packages/atom-language-osiris"
+    "url": "https://github.com/Willowblade/language-osiris.git"
   }
 }
