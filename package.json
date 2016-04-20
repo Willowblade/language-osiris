@@ -1,10 +1,9 @@
 {
   "name": "language-osiris",
   "main": "./lib/language-osiris",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Syntax highlighting with more planned for the Divinity Engine's Osiris scripting language ",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "language-osiris:toggle"
   },
